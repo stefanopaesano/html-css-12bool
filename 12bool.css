@@ -7,7 +7,7 @@
 /* 
     DEBUG GRID
 */
-.debug-grid {
+/* .debug-grid {
     display: none;
     position: fixed;
     top: 0;
@@ -36,7 +36,7 @@
 
 .debug-grid .row > :last-child {
     border-right-width: 2px;
-}
+} */
 
 /* 
     CONTAINER
@@ -50,8 +50,9 @@
     ROW
 */
 .row {
-    display: flex;
-    flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
 }
 
 /* 
@@ -133,6 +134,7 @@
 }
 
 .col-12 { /* 100% */
+    
     width: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
 }

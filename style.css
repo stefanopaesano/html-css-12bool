@@ -11,6 +11,15 @@
 /* 
     GENERAL
 */
+
+.container-for-2-section{
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+
+}
+
+
 .box {
     padding: 20px;
     text-align: center;
@@ -18,8 +27,38 @@
     background-color: blue;
     text-transform: uppercase;
     font-size: 1.5rem;
-    border: 2px dashed yellow;
-    margin-bottom: 10px;
+    border: 1px solid white;
+    margin-bottom: 0px;
+}
+
+.nested-2col{
+    width: 87.33px;
+    height: 41.5px;
+    background-color: green;
+    border: 2px dashed purple;
+    text-align: center;
+    color: white;
+    margin: 5px 5px;
+}
+
+.nested-8col{
+    width: 307.33px;
+    height: 41.5px;
+    background-color: green;
+    border: 2px dashed purple;
+    text-align: center;
+    color: white;
+    margin: 5px 5px;
+}
+
+.nested-6col{
+    width: 250.33px;
+    height: 41.5px;
+    background-color: green;
+    border: 2px dashed purple;
+    text-align: center;
+    color: white;
+    margin: 5px 5px;
 }
 
 .inner-box {
@@ -31,9 +70,12 @@
     color: white;
 }
 
+
+
 .special-box {
+    background-color: blue;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .full-height-box {
